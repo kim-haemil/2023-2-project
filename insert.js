@@ -1,6 +1,3 @@
-document.addEventListener('DOMContentLoaded', function () {
-    // Your initialization code or event listeners
-});
 function reshowingList(){
     keyValue = today.getFullYear() + '' + today.getMonth()+ '' + today.getDate();
     if(todoList[keyValue] === undefined){

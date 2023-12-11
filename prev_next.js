@@ -1,6 +1,3 @@
-document.addEventListener('DOMContentLoaded', function () {
-    // Your initialization code or event listeners
-});
 function prev(){
     inputBox.value = "";
     const $divs = document.querySelectorAll('#input-list > div');

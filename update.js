@@ -1,6 +1,5 @@
-document.addEventListener('DOMContentLoaded', function () {
-    // Your initialization code or event listeners
-});
+var mainTodayDay = document.querySelector('#main-day');
+var mainTodayDate = document.querySelector('#main-date');
 function showMain(){
     mainTodayDay.innerHTML = dayList[today.getDay()];
     mainTodayDate.innerHTML = today.getDate();
