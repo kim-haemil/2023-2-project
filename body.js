@@ -1,6 +1,3 @@
-document.addEventListener('DOMContentLoaded', function () {
-    // Your initialization code or event listeners
-});
 var currentTitle = document.getElementById('current-year-month');
 var calendarBody = document.getElementById('calendar-body');
 var today = new Date();
